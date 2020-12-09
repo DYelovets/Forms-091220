@@ -1,54 +1,47 @@
-.conteiner {display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  border: 2px solid green;
-  flex-direction: row;
-  justify-content:space-around;
-}
-
-.block:nth-child(1) {
-  background: linear-gradient(
-    68deg,
-    rgba(255, 190, 152, 1) 1%,
-    rgba(252, 144, 170, 1) 98%
-  );
-  
-}
-.block:nth-child(2) {
-  background: linear-gradient(
-    78deg,
-    rgba(139, 200, 245, 1) 1%,
-    rgba(52, 150, 227, 1) 98%
-  );
-  
-}
-.block:nth-child(3) {
-  background: linear-gradient(
-    140deg,
-    rgba(75, 216, 201, 1) 0%,
-    rgba(125, 218, 550, 1) 1%,
-    rgba(51, 284, 190, 1) 98%
-  );
-  
-}
-
-.block:nth-child(4) {
-  background: linear-gradient(
-    140deg,
-    rgba(90, 216, 201, 1) 0%,
-    rgba(125, 218, 210, 1) 1%,
-    rgba(51, 214, 190, 1) 98%
-  );
-  
-}
-
-.block {
-    display: inline-block;
-  width: 305px;
-  height: 305px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  
+.wrapper{
+  margin: 20px auto;
+  background-color: grey;
+  width: 50vw;       
  }
 
+ .form_name{
+   margin: 0 auto;
+   font-size: 30px;
+   font-weight: 500px;
+   text-align: center;
+ }
 
+ .personal_data{display: flex;
+  width: 100%;
+   }
+  
+  .first_name, .last_name{
+    flex: 1 1 auto;
+     }
+
+
+.formes{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+   }
+
+   .form_item{
+     flex: 1 1 auto;
+     width: 90%;
+     text-align: left;
+   }
+
+   input {
+    background-color: white;
+    padding:10px 15px;
+     margin: 15px;
+     text-align: left;
+     font-size: 20px;
+   }
+ .btn{padding:10px 20px;
+       background-color: teal;
+       text-align: left;
+        font-size: 30px;
+        font-weight: 500px;
+      }

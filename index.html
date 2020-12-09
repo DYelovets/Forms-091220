@@ -2,27 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Gradient</title>
+    <title>Forms</title>
     <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div class="conteiner">
-     <div class="block">1</div>
-       <div class="block">2</div>
-       <div class="block">3</div>
-  <div class="block">4</div>
-  <div class="block">1</div>
     
-  <div class="block">4</div>
-      <div class="block">1</div>
-      <div class="block">1</div>
+     <div class="wrapper">
+     <p class="form_name">------------Register-----------------</p>
+     <p>Create yuor account. It's free and only takes a minute.</p>
+     <div class=formes">
+
+     <form action="" method="POST" enctype="multipart/form-data">
+     <div class="personal_data form_item">
+     <input class="first_name" autofocus type="text" name="firstname" placeholder="First Name" required>
+     <input class="last_name" type="text" name="lastname" placeholder="Last name" required>
+     </div>
+     <input class="form_item" type="email" name="email" placeholder="Email" required>
+     <input class="form_item" type="password" name="password" placeholder="Password" required>
+     <input class="form_item" type="password" name="onfirm-pass" placeholder="Confirm Password" required> 
+     <label for="">
+     <input class="form_item" type="checkbox" name="accept"/>
+     <span>I accept the </span><a href="#">Terms of Use</a><span>&</span><a href="#">Privacy Policy</a> </label> 
+     <button class="btn" type="button">Register now</button>
+     </form>
      </div>
 
+    </div>
 
-     
-
-
-
-     
   </body>
 </html>
