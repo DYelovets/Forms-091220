@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #606367
+}
+
+.wrapper {
+    position: relative;
+    margin: 20px auto;
+    background-color: gainsboro;
+    width: 65vw;
+}
+
+.form_name::before {
+    content: "";
+    position: absolute;
+    width: 25vw;
+    height: 2px;
+    background-color: #606367;
+    top: 63px;
+    left: 30px;
+    z-index: 10;
+}
+
+.form_name::after {
+    content: "";
+    position: absolute;
+    width: 25vw;
+    height: 2px;
+    background-color: #606367;
+    top: 63px;
+    right: 30px;
+    z-index: 10;
+}
+
+.form_name {
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 500px;
+    text-align: center;
+    z-index: 1;
+}
+
+.text {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.personal_data {
+    flex: 1 1 auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.first_name,
+.last_name {
+    background-color: white;
+    width: 45%;
+    padding: 15px 15px;
+    margin: 0 -17px;
+    margin-bottom: 35px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.formes {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form_item {
+    display: block;
+    flex: 1 1 auto;
+    width: 90%;
+    background-color: white;
+    padding: 15px 15px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.checkbox {
+    flex: 1 1 auto;
+    width: 90%;
+    margin: 0 auto 35px 25px;
+    font-size: 20px;
+    ;
+}
+
+.btn {
+    display: block;
+    flex: 1 1 auto;
+    width: 94%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 15px 15px;
+    background-color: green;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: honeydew;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.link {
+    color: green;
+    text-decoration: none;
+}
